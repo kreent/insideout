@@ -48,7 +48,7 @@ export default function App() {
     return (
       <div className="min-h-screen bg-slate-900 flex items-center justify-center">
         <div className="text-center">
-          <div className="text-5xl mb-3 animate-bounce">🧠</div>
+          <video src="/Meditating Fox.webm" autoPlay loop muted playsInline className="w-16 h-16 rounded-full object-cover mx-auto mb-3" />
           <p className="text-slate-400 text-sm">Cargando...</p>
         </div>
       </div>
@@ -70,7 +70,7 @@ export default function App() {
       <header className="sticky top-0 z-50 backdrop-blur-md bg-slate-900/70 border-b border-white/10">
         <div className="max-w-lg mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <span className="text-2xl">🧠</span>
+            <video src="/Meditating Fox.webm" autoPlay loop muted playsInline className="w-8 h-8 rounded-full object-cover" />
             <div>
               <h1 className="text-lg font-extrabold text-white leading-none">
                 Inside<span className="text-yellow-400">Out</span>

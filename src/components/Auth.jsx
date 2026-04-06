@@ -32,8 +32,8 @@ export default function Auth() {
       <div className="relative w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center gap-2 mb-3">
-            <span className="text-5xl">🧠</span>
+          <div className="inline-flex items-center justify-center mb-3">
+            <video src="/Meditating Fox.webm" autoPlay loop muted playsInline className="w-24 h-24 rounded-full object-cover" />
           </div>
           <h1 className="text-4xl font-extrabold text-white tracking-tight">
             Inside<span className="text-yellow-400">Out</span>
